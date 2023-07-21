@@ -1,0 +1,131 @@
+$color_1: black;
+$font-family_1: 'PT Sans', sans-serif;
+$background-color_1: white;
+
+.containter-fluid {
+	height: auto;
+	display: flex;
+	flex-direction: column;
+}
+body {
+	background-image: url(img/huerta1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	opacity: 0.85;
+}
+.navbar {
+	justify-content: center;
+	align-items: center;
+	font-family: $font-family_1;
+	font-size: 20px;
+}
+.nav-item {
+	font-family: $font-family_1;
+	color: $color_1;
+}
+.fotoprincipal {
+	object-fit: cover;
+}
+.card-title {
+	font-family: $font-family_1;
+}
+.card-text {
+	font-family: $font-family_1;
+	font-size: large;
+}
+.img-fluid {
+	object-fit: cover;
+}
+.fotoproducto {
+	height: 250px;
+	object-fit: cover;
+	opacity: 0.5;
+}
+.tituloproductos {
+	font-family: $font-family_1;
+	font-weight: bold;
+	font-size: 100px;
+	text-align: center;
+}
+.titulo {
+	font-weight: bold;
+}
+.autogestiva {
+	font-size: 40px;
+	text-align: center;
+}
+.cardcentrada {
+	text-align: center;
+}
+#DETRASDEYVYPORA {
+	object-fit: cover;
+}
+.fotocontacto {
+	width: 100%;
+	height: 100%;
+	margin-left: 100px;
+	object-fit: cover;
+}
+footer {
+	background-color: $background-color_1;
+}
+.footerizq {
+	padding-top: 2%;
+	font-family: $font-family_1;
+	font-size: 25px;
+	color: $color_1;
+}
+.footerder {
+	padding-top: 2%;
+	text-align: right;
+	padding-right: none;
+	font-family: $font-family_1;
+	font-size: 15px;
+	color: $color_1;
+}
+.ig {
+	font-family: $font-family_1;
+	text-decoration: none;
+	color: $color_1;
+}
+.Emilia {
+	font-family: $font-family_1;
+	font-size: 10px;
+}
+.wp {
+	text-decoration: none;
+	color: $color_1;
+}
+@media only screen and (max-width: 767px) {
+	.tituloproductos {
+		font-family: $font-family_1;
+		font-weight: bold;
+		font-size: 30px;
+		text-align: center;
+	}
+	.autogestiva {
+		font-size: 20px;
+		text-align: center;
+	}
+	.fotoproducto {
+		height: 100px;
+		object-fit: cover;
+		opacity: 0.5;
+	}
+	.mapa {
+		width: 100%;
+	}
+	.fotocontacto {
+		object-fit: cover;
+		margin-left: 0%;
+	}
+	.footerizq {
+		text-align: center;
+	}
+	.footerder {
+		font-family: $font-family_1;
+		font-size: 15px;
+		color: $color_1;
+		text-align: center;
+	}
+}
