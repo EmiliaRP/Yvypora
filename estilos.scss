@@ -96,6 +96,11 @@ footer {
 	text-decoration: none;
 	color: $color_1;
 }
+
+.card {
+	border: none;
+}
+
 @media only screen and (max-width: 767px) {
 	.tituloproductos {
 		font-family: $font-family_1;
